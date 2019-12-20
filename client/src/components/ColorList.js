@@ -27,7 +27,7 @@ const ColorList = ({ colors, updateColors }) => {
     color: "",
     code: { 
       hex: "" },
-    id: '',
+    id: Date.now(),
   })
 
   const handleChange = event => {
