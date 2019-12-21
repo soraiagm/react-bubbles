@@ -27,7 +27,7 @@ const ColorList = ({ colors, updateColors }) => {
     color: "",
     code: { 
       hex: "" },
-    id: Date.now(),
+    id: "",
   })
 
   const handleChange = event => {
@@ -143,6 +143,7 @@ const ColorList = ({ colors, updateColors }) => {
       )}
       <div className="spacer" />
       {/* stretch - build another form here to add a color */}
+          
           <form className="add" onSubmit={handleSubmit}>
             <input 
                 className="color"
