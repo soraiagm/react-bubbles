@@ -1,0 +1,41 @@
+.wrapper {
+    text-align: center;
+}
+
+.nav {
+    margin: 20px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+a {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+
+input {
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.username, .password {
+    margin: 10px;
+}
+
+.colors-wrap {
+    margin: auto;
+}
